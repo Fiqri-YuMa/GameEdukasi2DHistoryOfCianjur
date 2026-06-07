@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d43437132da87c468188e1f3a8f3096, type: 3}
+  m_Name: Cikundul
+  m_EditorClassIdentifier: 
+  locationName: Makam Cikundul
+  description: Makam Cikundul adalah kompleks pemakaman sejarah yang menjadi tempat
+    peristirahatan terakhir Raden Aria Wiratanudatar (Dalem Cikundul), pendiri sekaligus
+    Bupati pertama Cianjur yang memerintah pada abad ke-17
+  photo: {fileID: 7502104763253664147, guid: d74998be263e05d408d1d575fbfd892a, type: 3}
+  sceneName: Dialog3
+  hargaBuka: 3
+  unlockedByDefault: 0

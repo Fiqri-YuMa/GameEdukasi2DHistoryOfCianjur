@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 8d4e114687fb75841a355bddf5ad86d2
+  - enabled: 1
+    path: Assets/Scenes/Map1.unity
+    guid: 41dc141b3ce42d244a7b4178aeffb44d
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Dialog1.unity
+    guid: 628fa0e47f1bc2746a99f20b43b0eb0e
+  - enabled: 1
+    path: Assets/Scenes/Dialog2.unity
+    guid: 009fbdc68e2d0f448845de68369687dd
+  - enabled: 1
+    path: Assets/Scenes/Dialog3.unity
+    guid: bcfa920cf33bd604cbe0b71d361fc02e
+  - enabled: 1
+    path: Assets/Scenes/Dialog4.unity
+    guid: 68f3599824adac24ba27a80d88467fff
+  - enabled: 1
+    path: Assets/Scenes/Dialog5.unity
+    guid: 3bba1e4d6a27f424c9eecd2bfc46b8e2
+  - enabled: 1
+    path: Assets/Scenes/Tanya1.unity
+    guid: 19a5acb253c24a04b80d8ef39d0c1fba
+  - enabled: 1
+    path: Assets/Scenes/Tanya2.unity
+    guid: b7f5dc196c5875440abed853ab5f7c3e
+  - enabled: 1
+    path: Assets/Scenes/Tanya3.unity
+    guid: e3dc5c668cd8cbe46b98ccf27c5808f7
+  - enabled: 1
+    path: Assets/Scenes/Tanya4.unity
+    guid: 65fbc725b8f048c49bb3a013733ae8c0
+  - enabled: 1
+    path: Assets/Scenes/Tanya5.unity
+    guid: 54a72a258b3f5f44ca6275b4d5adf8f3
+  - enabled: 1
+    path: Assets/Scenes/Tutorial.unity
+    guid: 26a4a5c1d0d837e4cb03424ffa2ec52e
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+  m_UseUCBPForAssetBundles: 0

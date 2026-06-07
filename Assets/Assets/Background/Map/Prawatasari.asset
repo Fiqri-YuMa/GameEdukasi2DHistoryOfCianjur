@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d43437132da87c468188e1f3a8f3096, type: 3}
+  m_Name: Prawatasari
+  m_EditorClassIdentifier: 
+  locationName: Taman Prawatasari
+  description: Taman Prawatasari adalah taman kota dan ruang terbuka hijau publik
+    yang namanya didedikasikan untuk menghormati Kyai Haji Raden Alit Prawatasari,
+    ulama sekaligus pahlawan gerilya Cianjur penentang kolonial VOC pada tahun 1703.
+  photo: {fileID: 7328209709993572678, guid: c721bbc209d015e49831e94960554e2e, type: 3}
+  sceneName: Dialog5
+  hargaBuka: 1
+  unlockedByDefault: 0
