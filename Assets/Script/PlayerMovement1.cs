@@ -7,6 +7,7 @@ public class PlayerMovement1 : MonoBehaviour
     public Transform groundCheck;
     public float groundCheckRadius = 0.2f;
     public LayerMask groundLayer;
+    public GameObject lodong;
 
 
     private Rigidbody2D rb;
@@ -22,12 +23,38 @@ public class PlayerMovement1 : MonoBehaviour
     {
         float moveInput = Input.GetAxis("Horizontal");
         rb.linearVelocity = new Vector2 (moveInput * speed, rb.linearVelocity.y);
-    
-        if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        if (moveInput > 0)
+        {
+            Debug.Log("Input Horizontal saat ini: kanan " + moveInput);
+        }
+        if (moveInput < 0)
+        {
+            Debug.Log("Input Horizontal saat ini: kiri " + moveInput);
+        }
+
+
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpforce);
+            Debug.Log("Input lompyat = spasi");
+
         }
-        SetAnimation(moveInput);
+
+        if (Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            if (lodong.activeSelf == false)
+            {
+                lodong.SetActive(true);
+                Debug.Log("lodong aktif");
+            }
+            else
+            {
+                lodong.SetActive(false);
+                Debug.Log("lodong ilang");
+
+            }
+        }
+        //SetAnimation(moveInput);
     }
 
     private void FixedUpdate()
